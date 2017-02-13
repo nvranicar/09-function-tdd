@@ -1,6 +1,6 @@
 import cardValue from './card-value';
 
-export default function sum(arr) {
+export default function cardSum(cardValue) {
   const length = arr.length;
   let sumValue = 0;
 
