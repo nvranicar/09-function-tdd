@@ -4,7 +4,7 @@ import reviveEh from '../../app/conway/should-revive';
 
 test('A cell knows the rules if it\'s dead', (assert) => {
   const a = reviveEh([false, false, false, false, false, false, false, false]);
-  const b = reviveEh([false, true, false, false, true, false, false, false]);
+  const b = reviveEh([false, true, false, false, false, false, false, false]);
   const c = reviveEh([false, true, false, true, true, false, false, false]);
   const d = reviveEh([true, true, true, false, true, false, false, false]);
 
